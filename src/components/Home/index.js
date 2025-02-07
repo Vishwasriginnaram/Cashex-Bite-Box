@@ -30,7 +30,7 @@ const Home = () => (
 
     {/* Features Section */}
     <div className="bg-white flex flex-col gap-y-4 md:flex-row justify-between md:items-center px-6 md:px-10 py-6">
-      <div className="flex items-center gap-x-2">
+      <div className="flex items-center gap-x-2 ml-[-6px]">
         <img className="h-11 w-auto" src={icon1} alt="Cashless Payments" />
         <div className="text-lg md:text-sm lg:text-xl font-medium">Cashless Payments</div>
       </div>
