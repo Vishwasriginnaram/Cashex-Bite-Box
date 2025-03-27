@@ -36,10 +36,10 @@ class Navbar extends Component {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-x-8">
             <Link to="/aboutus" className="text-sm font-medium">ABOUT US</Link>
-            <a href="https://darkviolet-dugong-563230.hostingersite.com/admin/terms/condition/user" className="text-sm font-medium">T&C</a>
-            <a href="https://darkviolet-dugong-563230.hostingersite.com/admin/privacy/policy/user" className="text-sm font-medium">PRIVACY POLICIES</a>
-            <a href="https://darkviolet-dugong-563230.hostingersite.com/admin/return/policy" className="text-sm font-medium">CANCELLATION & REFUND</a>
-            <a href="https://darkviolet-dugong-563230.hostingersite.com/admin/contact" className="text-sm font-medium">CONTACT US</a>
+            <a href="https://admin.biteboxes.in/terms/condition/user" className="text-sm font-medium">T&C</a>
+            <a href="https://admin.biteboxes.in/privacy/policy/user" className="text-sm font-medium">PRIVACY POLICIES</a>
+            <a href="https://admin.biteboxes.in/return/policy" className="text-sm font-medium">CANCELLATION & REFUND</a>
+            <a href="https://admin.biteboxes.in/contact" className="text-sm font-medium">CONTACT US</a>
           </div>
         </div>
 
@@ -47,10 +47,10 @@ class Navbar extends Component {
         <div className={`lg:hidden ${onMobile ? "block" : "hidden"}`}>
           <div className="flex flex-col justify-center items-center gap-y-2 py-4">
             <Link to="/aboutus" className="text-sm font-medium" onClick={this.onHideNav}>ABOUT US</Link>
-            <a href="https://darkviolet-dugong-563230.hostingersite.com/admin/terms/condition/user" className="text-sm font-medium" onClick={this.onHideNav}>T&C</a>
-            <a href="https://darkviolet-dugong-563230.hostingersite.com/admin/privacy/policy/user" className="text-sm font-medium" onClick={this.onHideNav}>PRIVACY POLICIES</a>
-            <a href="https://darkviolet-dugong-563230.hostingersite.com/admin/return/policy" className="text-sm font-medium" onClick={this.onHideNav}>CANCELLATION & REFUND</a>
-            <a href="https://darkviolet-dugong-563230.hostingersite.com/admin/contact" className="text-sm font-medium" onClick={this.onHideNav}>CONTACT US</a>
+            <a href="https://admin.biteboxes.in/terms/condition/user" className="text-sm font-medium" onClick={this.onHideNav}>T&C</a>
+            <a href="https://admin.biteboxes.in/privacy/policy/user" className="text-sm font-medium" onClick={this.onHideNav}>PRIVACY POLICIES</a>
+            <a href="https://admin.biteboxes.in/return/policy" className="text-sm font-medium" onClick={this.onHideNav}>CANCELLATION & REFUND</a>
+            <a href="https://admin.biteboxes.in/contact" className="text-sm font-medium" onClick={this.onHideNav}>CONTACT US</a>
           </div>
         </div>
       </div>
